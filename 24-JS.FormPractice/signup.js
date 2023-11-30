@@ -36,10 +36,10 @@ inputUsername.style.width = "100%";
 inputEmail.style.width = "100%";
 inputPhoneNumber.style.width = "100%";
 inputPassword.style.width = "100%";
+btnSign.style.width = "100%";
 
 btnSign.innerText = "Sign Up";
 btnSign.type = "submit";
-btnSign.style.width = "100%";
 
 document.body.style.backgroundColor = "blue";
 
@@ -50,6 +50,7 @@ form.style.flexDirection = "column";
 form.style.alignItems = "center";
 form.style.padding = "60px 0";
 form.style.gap = "1.5rem";
+
 
 btnSignUp.append(btnSign);
 userInpDiv.append(inputUsername);
