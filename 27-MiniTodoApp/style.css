@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  height: 50vh;
+  background-color: rgb(233, 239, 243);
+  border-radius: 10px;
+}
+
+.inpbtn {
+  width: 90%;
+  height: 10vh;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-left: 50px;
+}
+
+.texth1 {
+  color: blue;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  width: 90%;
+  height: 30px;
+}
+
+.addbtn {
+  height: 29px;
+  margin: 15px;
+  padding: 0 20px;
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+}
