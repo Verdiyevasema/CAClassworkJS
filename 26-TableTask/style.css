@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  height: 35px;
+  margin: 10px 0;
+  width: 50%;
+}
+
+table,
+th,
+td,
+tr {
+  border: 1px solid black;
+}
+
+td,
+th {
+  padding: 7px 13px;
+}
