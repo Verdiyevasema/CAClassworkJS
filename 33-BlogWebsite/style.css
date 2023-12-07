@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blogWebsite {
+  color: red;
+}
+.card{
+    padding: 30px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read-more {
+    color: rgb(3, 168, 168);
+}
+.voluptatum{
+    color: red;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+header {
+  background-color: orange;
+  padding: 20px 0;
+}
