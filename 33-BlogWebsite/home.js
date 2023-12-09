@@ -2,6 +2,7 @@ let header = document.querySelector("header");
 let container = document.querySelector(".container");
 let cards = document.querySelector(".cards");
 let allBtn = document.querySelectorAll(".btn");
+let search = document.querySelector("#search");
 
 const BASE_URL = `http://localhost:8080`;
 
@@ -25,13 +26,32 @@ function drawCards(dataArray) {
                 </h6>
                 <p class="card-text">${element.author}</p>
                 <button class="btn btn-danger" onclick="deletecard(${element.id}, this)">Delete</button>
-                <button href="#" class="btn btn-warning">Edit</button>
+                <a href="#" class="btn btn-warning">Edit</a>
             </div>
             </div>
         </div>
       `;
   });
 }
+
+// search.addEventListener("input", function (event) {
+//   let filtered = blogs.filter((item) =>
+//     item.tittle
+//       .toLocaleLowerCase()
+//       .includes(event.target.value.toLocaleLowerCase())
+//   );
+//   drawCards(filtered);
+// });
+
+search.addEventListener("input", async function (event) {
+  let response = await axios(`${BASE_URL}/blogs`);
+  let filtered = response.data.filter((item) =>
+    item.tittle
+      .toLocaleLowerCase()
+      .includes(event.target.value.toLocaleLowerCase())
+  );
+  drawCards(filtered);
+});
 
 async function deletecard(id, btn) {
     console.log(id,btn);
