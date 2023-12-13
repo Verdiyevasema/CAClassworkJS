@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+header {
+  background-color: blanchedalmond;
+  height: 9vh;
+}
+
+.myContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.usersText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+td img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tableBtn {
+  /* display: flex; */
+  gap: 1rem;
+}
+
+.deleteBtn {
+  color: white;
+  background-color: red;
+}
+
+.addBtn {
+  color: white;
+  background-color: blue;
+}
+
+.edit {
+  color: white;
+  background-color: rgb(1, 90, 1);
+}
+
+.tableImg {
+  background-image: url("../img/bg1\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 95vh;
+}
+
+.goBackBtn {
+  color: white;
+  background-color: blue;
+  margin: 20px 20px;
+  border-radius: 3px;
+}
+
+.addUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(1, 109, 1);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.fav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

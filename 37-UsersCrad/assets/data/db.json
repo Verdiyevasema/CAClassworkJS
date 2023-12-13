@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "name": "Cheyenne",
+      "surname": "Leon",
+      "email": "zeziniziq@mailinator.com",
+      "date": "5/17/2023, 10:18:12 AM",
+      "userphoto": "./assets/img/bg1 (1).jpg",
+      "id": 3
+    },
+    {
+      "name": "Myles",
+      "surname": "Mclean",
+      "email": "zowyvyha@mailinator.com",
+      "date": "12/13/2023, 1:01:12 AM",
+      "userphoto": "./assets/img/Remy.jpg",
+      "id": 8
+    },
+    {
+      "name": "Noah",
+      "surname": "Pope",
+      "email": "qepumilas@mailinator.com",
+      "userphoto": "./assets/img/Collete.jpg",
+      "id": 9
+    },
+    {
+      "name": "Sean",
+      "surname": "Vance",
+      "email": "cinigibej@mailinator.com",
+      "userphoto": "./assets/img/remy2.jpg",
+      "id": 10
+    }
+  ]
+}
