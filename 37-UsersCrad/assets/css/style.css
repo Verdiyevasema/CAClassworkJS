@@ -90,3 +90,9 @@ form {
   flex-wrap: wrap;
   gap: 2rem;
 }
+
+.favpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

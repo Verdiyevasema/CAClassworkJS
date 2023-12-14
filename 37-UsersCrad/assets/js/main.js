@@ -28,7 +28,7 @@ function drawTable(data) {
           <button class="addBtn" onclick="addFavorits(${element.id})">Add Fav</button>
         </th>
     </tr>
-    `;
+    `; 
   });
 }
 

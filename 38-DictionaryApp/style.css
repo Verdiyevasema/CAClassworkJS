@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 200vh;
+}
+.dictionary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
+
+.search {
+    border-radius: 3px;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 13px;
+    padding: 25px;
+}
+
+.dif {
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+}
